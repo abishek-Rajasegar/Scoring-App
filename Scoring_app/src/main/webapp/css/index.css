@@ -1,0 +1,77 @@
+.body1 {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	min-height: 100vh;
+	flex-wrap: wrap;
+	background: #00d4a6;
+}
+
+form {
+	width: 350px;
+	padding: 40px;
+	position: relative;
+	background: #191919;
+	text-align: center;
+	color: floralwhite;
+	border-radius: 2em 2em;
+	box-shadow: black 12px 12px 29px 12px;
+}
+
+h1 {
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+input[type="email"], input[type="password"],  .edit {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+input[type="email"]:focus, input[type="password"]:focus, .edit:focus
+	{
+	width: 280px;
+	border-color: #2ecc71;
+}
+
+input[type="submit"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background: #2ecc71;
+}
+
+.navbar {
+	background: black;
+}
+
+.navbar-toggler {
+	color: floralwhite;
+}
+
+.collapse {
+	background: black;
+}

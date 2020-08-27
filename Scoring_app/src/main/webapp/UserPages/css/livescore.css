@@ -1,0 +1,35 @@
+body {
+    background: #00bcd4;
+}
+
+.collapse {
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: floralwhite;
+}
+
+a:hover {
+    text-decoration: none;
+    color: cyan;
+}
+
+table {
+    text-align: center;
+    box-shadow: black 8px 8px 17px 8px;
+}
+
+.navbar {
+    background: black;
+}
+
+.navbar-toggler {
+    color: floralwhite;
+}
+
+.collapse {
+    background: black;
+}

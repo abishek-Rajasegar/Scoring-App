@@ -1,0 +1,100 @@
+.body1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    background: #00d4a6;
+}
+
+form {
+    margin-top: 10px;
+    width: 350px;
+    padding: 40px;
+    position: relative;
+    background: #191919;
+    text-align: center;
+    color: floralwhite;
+    border-radius: 2em 2em;
+    box-shadow: black 12px 12px 29px 12px;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime-local"],
+.selection {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #3498db;
+    width: 200px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+.selection:focus,
+input[type="datetime-local"]:focus
+ {
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+input[type="submit"], .btn {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border-bottom: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.collapse {
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: floralwhite;
+}
+
+a:hover {
+    text-decoration: none;
+    color: cyan;
+}
+
+
+input[type="submit"]:hover {
+    background: #2ecc71;
+}
+
+.navbar {
+    background: black;
+}
+
+.navbar-toggler {
+    color: floralwhite;
+}
+
+.collapse {
+    background: black;
+}

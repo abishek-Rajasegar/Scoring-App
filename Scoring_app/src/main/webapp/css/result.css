@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+.body1 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    background: #00d4a6;
+}
+
+.box {
+    position: relative;
+    width: 550px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    margin: 40px;
+    border: 1px solid black;
+    box-shadow: 1em 1em 2em 1em;
+    border-radius: 2em 2em;
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: floralwhite;
+    z-index: -1;
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: black;
+    z-index: -1;
+    filter: blur(60px);
+}
+
+.box:nth-child(1)::before,
+.box:nth-child(1)::after {
+    background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+}
+
+.box:nth-child(2):before,
+.box:nth-child(2):after {
+    background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+}
+
+.box:nth-child(3)::before,
+.box:nth-child(3)::after {
+    background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+}
+
+.box:nth-child(4)::before,
+.box:nth-child(4)::after {
+    background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+}
+
+.box:nth-child(5)::before,
+.box:nth-child(5)::after {
+    background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+}
+
+.box:nth-child(6)::before,
+.box:nth-child(6)::after {
+    background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+}
+
+.box .glass {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+    border-radius: 2em 0em 0em 2em;
+}
+
+.box .content {
+    padding: 20px;
+    color: cyan;
+}
+
+.box .content a {
+    position: relative;
+    margin: 3px 0 0;
+    padding: 7px 7px;
+    text-decoration: none;
+    display: inline-block;
+    color: cyan;
+    background: transparent;
+}
+
+input[type="submit"],
+.box button {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+.box button:hover {
+    background: #2ecc71;
+}
+
+.collapse {
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: floralwhite;
+}
+
+a:hover {
+    text-decoration: none;
+    color: cyan;
+}
+
+table {
+    text-align: center;
+}
+
+.navbar {
+    background: black;
+}
+
+.navbar-toggler {
+    color: floralwhite;
+}
+
+.collapse {
+    background: black;
+}
